@@ -1,37 +1,58 @@
-## Welcome to GitHub Pages
+## Cloud Computing: investigación de Alejandro Quesada y Jose Álvarez para CE-1103.
+### Índice 
+1. Definición e historia de Cloud Computing
+2. Conceptos básicos
+3. Explicación de los modelos de despliegue
+4. Explicación de los modelos de servicio
+5. Comparativa de tres proveedores de Cloud services.
+6. Aplicaciones sencillas de ejemplo implementando el PaaS de tres proveedores distintos.
 
-You can use the [editor on GitHub](https://github.com/JoeA42/InvestigacionCC/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+## Definición e historia de Cloud Computing
+### Definición
+_Cloud Computing_ es una tecnología de proceso y manejo de datos, donde los recursos y la capacidad computacional, se proveen al usuario como un servicio de internet. El usuario tiene acceso a sus datos, pero no tiene porque preocuparse por la infraestructura, sistema operativo y el software con el que se trabaja.(Arutyunov, 2012)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Esto es increíblemente útil, ya que un usuario solamente necesita una conexión de internet para poder utilizar un servicio complejo, sin importar el dispositivo que esté utilizando y los recursos del mismo.
 
-### Markdown
+Muchas veces el usuario se ve limitado, por que su dispositivo no cumple con los requisitos necesarios para ejecutar una aplicación. Lo cual no es un problema con los servicios de _Cloud Computing_.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Historia
+El fundador de el concepto de _Cloud Computing_ fue John McCarthy, que sugirió en 1960 que en el futuro los cálculos se realizaría a través de servicios públicos. La ideología de _Cloud Computing_, ganó popularidad en el 2007, gracias el desarrollo rápido de canales de comunicación y un aumento en la progresión geométrica de las necesidades de tanto negocios como usuarios particulares para aumentar sus sistemas de información. 
 
-```markdown
-Syntax highlighted code block
+El término como tal se empezó a discutir en el 2008 en una conferencia de internet. Como resultado de estas discusiones, diferentes versiones de _Cloud Computing_ fueron propuestas. Debido a una de estas propuestas, el término «cloud» fue utilizado por primera vez por la cabeza de Google, Eric Schmidt y fue diseminada por los medios de comunicación masivos. Hoy, muchas compañías, por ejemplo, Google, activamente usan el concepto de _Cloud Computing_. Un ejemplo típico es _Google Docs_, que permite trabajar con documentos de oficina, como `.docx` entre otros. (Arutyunov, 2012)
 
-# Header 1
-## Header 2
-### Header 3
+## Conceptos básicos
+Cuando se piensa en las diferentes utilidades del cloud computing, se suele pasar por alto un conjunto importante de conceptos que son necesarios para que las aplicaciones en la nube que se utilizan a diario funcionen como suelen hacerlo. Estos, tal vez no se ignoran en su totalidad, más bien se comprende implícitamente al utilizar aplicaciones en la nube, pero es importante abordarlos para identificar cuándo un servicio o implementación consiste de cloud.
+### Autoservicio _on-demand_ (bajo demanda)
+Consiste en que los usuarios de un servicio pueden acceder a estos por medio de la nube cuando lo necesiten, **sin interacción directa** con el proveedor del servicio. Estos servicios suelen ser completamente de este tipo, porque maximiza el control y la agilidad de los usuarios (Lucidchart Content Team, 2020).
+### Red de amplio acceso
+Es característico de estos servicios en cloud, no debe confundirse con la definición de una Red de Área Amplia o WAN, pues se refiere a la característica de portabilidad del servicio, es decir, que le dé la capacidad a los usuarios de utilizarlos en diferentes plataformas, donde les sea preferible, como computadores de escritorio, portátiles o dispositivos móviles (Lucidchart Content Team, 2020).
+### _Resource pooling_ (puesta en común de recursos)
+Es un aspecto muy importante del funcionamiento en la nube. Aborda la escala de distribución de recursos que se le da a la comunidad de usuarios activos, sea almacenamiento, memoria, procesamiento o ancho de banda de red, se le asigna a cada consumidor de estos recursos con base en la demanda que su utilización presente sobre estos. Tiene mucha relación con el siguiente concepto. (Lucidchart Content Team, 2020)
+### Rápida elasticidad
+En conjunto con la asignación de recursos, esto comprende la agilidad y precisión del sistema para asignar dichos recursos a sus usuarios; es clave que el servicio sea capaz de procesar grandes aumentos o disminuciones en la demanda sin comprometer el servicio ni su calidad. (Lucidchart Content Team, 2020)
+## Modelos de despliegue
+Los servicios de «nube» pueden ser catalogados en diferentes modelos de despliegue, a continuación se mencionan 3 de estos.
+### Privado
+La infraestructura de la nube es operada para una organización, incluyendo algunos consumidores, (e.g departamentos en una organización), posiblemente clientes y contratistas. Puede ser manejada por la organización o por un agente externo, y puede 
+existir tanto dentro como fuera de la jurisdicción del propietario.(Arutyunov, 2012)
+### Público
+La infraestructura de la nube es operada para el uso gratuito de un gran rango de usuarios, (“el público”). Una nube pública puede ser propiedad, manejada y operada por una organización comercial, académica o de gobierno( o cualquier combinación de estas que exista). Existe dentro de la jurisdicción del propietario.(Arutyunov, 2012)
+### Híbrido
+La infraestructura de la nube es operada para el uso gratuito de un gran rango de usuarios, (“el público”). Una nube pública puede ser propiedad, manejada y operada por una organización comercial, académica o de gobierno( o cualquier combinación de estas que exista). Existe dentro de la jurisdicción del propietario.(Arutyunov, 2012)
 
-- Bulleted
-- List
+## Modelos de servicio
+También pueden ser catalogados por modelos de servicio, 3 de los más utilizados en la actualidad son:
+### _Infrastructure as a Service (IaaS)_
+Es la capacidad del consumidor para controlar el procesamiento y el almacenamiento. Por ejemplo, el consumidor puede implementar y ejecutar software arbitrario, que puede incluir sistemas operativos, plataformas y aplicaciones. El consumidor puede controlar los sistemas operativos, el almacenamiento virtual y las aplicaciones implementadas, y tiene un control limitado sobre un conjunto de componentes de red. El proveedor de la nube implementa el control y la gestión de la infraestructura física y virtual principal de las nubes, incluida la red, los servidores, los tipos de sistemas operativos y los sistemas de almacenamiento.
+### _Platform as a Service(PaaS)_
+Es un modelo en el que los consumidores pueden usar la infraestructura en la nube para la instalación de software base para usar aplicaciones nuevas o previamente existentes (aplicaciones creadas por el consumidor, desarrolladas por pedido o adquiridas). Dichas plataformas incluyen herramientas para la creación, prueba e implementación de software de aplicación, sistemas de gestión de bases de datos, middleware y el entorno de programación que proporciona el proveedor de la nube. El proveedor de la nube realiza el control y la gestión de las principales nubes de infraestructura física y virtual, incluidas las redes, los servidores, los sistemas operativos y el almacenamiento, excepto las aplicaciones desarrolladas o instaladas, así como las configuraciones del entorno de alojamiento de aplicaciones.
+### _Software as a Service (SaaS)_
+Este se provee al consumidor con el objetivo de usar las aplicaciones del proveedor que pueden ejecutarse en una infraestructura en la nube, que son accesibles desde varios «dispositivos cliente» a través de interfaces simples, como buscadores de internet, un ejemplo de esto siendo cuando se utiliza un browser para acceder al correo electrónico, teniendo en cuenta que todos esos datos se encuentran en la nube. Todos los detalles del control, mantenimiento de la infraestructura física y virtual de este modelo se implementa por el proveedor del servicio.
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/JoeA42/InvestigacionCC/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Ofertas de mercado
+### AWS
+### Microsoft Azure
+### Google Cloud
+## Bibliografía
+1. Arutyunov, V. V. (2012). Cloud computing: Its history of development, modern state, and future considerations. Scientific and Technical Information Processing, 39(3), 173-178. Recuperado del artículo código doi:`10.3103/s0147688212030082`
+2.  Lucidchart Content Team. (2020, May 15). The Basics of Cloud Computing. Lucidchart. Recuperado de [lucidchart](https://www.lucidchart.com/blog/cloud-computing-basics)
