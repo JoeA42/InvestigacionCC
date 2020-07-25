@@ -51,8 +51,20 @@ Este se provee al consumidor con el objetivo de usar las aplicaciones del provee
 
 ## Ofertas de mercado
 ### AWS
+_Amazon Web Services_ es la oferta de _cloud computing_ de Amazon, fundada en el año 2006, provee servicio cloud bajo demanda tanto a usuarios regulares, como organizaciones. Entre sus servicios destaca el amplio rango de _IaaS_ y _PaaS_ que ofrecen. Esta opción se encuentra entre los primeros puestos de proveedores cloud; tiene beneficios como la alta personalización y las pruebas gratuitas para desarrolladores (de 12 meses), sin embargo cuenta con algunos problemas de servicio al cliente respecto a quejas de otros usuarios (Drake and Turner, 2019).
 ### Microsoft Azure
+Este servicio como dice su nombre, es de la empresa Microsoft, que se encuentra entre los grandes de la tecnología actualmente, y es de las mejores ofertas de cloud actualmente. _Azure_ se lanzó en 2010, destaca que sus usuarios pueden ejecutar cualquier servicio en la nube, o combinarlo con aplicaciones existentes, así como centros o infraestructuras de datos. Estos servicios son compatibles tanto con Windows, como Linux, e inclusive se prestan máquinas virtuales en ambos sistemas operativos para la renta. Tiene excelentes pros para los desarrolladores como migración a Azure, para transferir datos a la nube de forma simple, también tiene la ventaja de ser gratuito por doce meses, sin embargo, destacan sus altos precios al terminar las pruebas gratuitas, en comparación con otros proveedores (Drake and Turner, 2019).
 ### Google Cloud
+Google no necesita introducción, es empresa lider en la mayoría de campos computacionales actualmente. _Cloud_ es su opción para cloud computing, de este destacan los amplios y modulares servicios que presta principalmente en formatos _IaaS_ y _PaaS_. Sus herramientas se enfocan en el rendimiento y mantenimiento consistente. Algunos ejemplos de sus herramientas son _Cloud Storage_, _Compute Engine_, _Container Engine_, y _Big Query_. Los beneficios más destacados para los desarrolladores son lo amigable para el usuario que son las herramientas y su prueba gratis de 12 meses, aunque algunos comentarios discuten que la configuración de estos servicios pueden ser un poco complicados para principiantes.
+
+## Anexo: justificación de implementación
+Se investigó sobre la implementación de código en estas 3 plataformas. Inicialmente, con, AWS y se encontró que  existe una gran variedad de “proyectos” que se pueden realizar, el que más se adapta a los requisitos fue el conocido como _“serverless application”_, despues de seguir una guía de usuario brindada por la plataforma, se pudo elaborar el correspondiente a un "hola mundo", sin embargo, realizar un algoritmo que acepte algún tipo de input resultó ser mucho más complicado, y se encontró con otras complicaciones tanto en esta, como en las otras dos plataformas: habría que poner un dominio a mostrar las aplicaciones por tiepmo indefinido hasta que la investigación se revise.
+
+Con respecto a las otras dos plataformas, se encontró que ni Microsoft Azure o Google cloud proveían un servicio genuinamente gratuito, todos los servicios requerían de una tarjeta de credito para registrarse.
+
+Se exploraron otros dos servicios de Cloud Computing, que pese a ofrecer un rango gratuito, como el servicio de Oracle, o el del IBM, también necesitaban de un dominio web para poder mostrar el funcionamiento del código a terceros, que es algo a lo que no se tiene acceso actualmente. 
+
 ## Bibliografía
 1. Arutyunov, V. V. (2012). Cloud computing: Its history of development, modern state, and future considerations. Scientific and Technical Information Processing, 39(3), 173-178. Recuperado del artículo código doi:`10.3103/s0147688212030082`
 2.  Lucidchart Content Team. (2020, May 15). The Basics of Cloud Computing. Lucidchart. Recuperado de [lucidchart](https://www.lucidchart.com/blog/cloud-computing-basics)
+3. Drake, N. and Turner, B., 2019. Best Cloud Computing Services Of 2020: For Digital Transformation. TechRadar. Recuperado de [techradar](https://www.techradar.com/best/best-cloud-computing-services).
